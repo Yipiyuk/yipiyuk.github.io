@@ -1,0 +1,182 @@
+@charset "utf-8";
+#master {
+	position: relative;
+	background-color: #666;
+	clip: rect(auto,auto,auto,auto);
+	height: 700px;
+	top: 50px;
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#header {
+	height: 50px;
+	width: 750px;
+	top: 10px;
+	position: absolute;
+	clip: rect(auto,auto,auto,auto);
+	left: 25px;
+	right: 25px;
+	background-color: #000;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: #CCC;
+	font-size: 40px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#maintext {
+	position: absolute;
+	width: 750px;
+	left: 25px;
+	right: 25px;
+	top: 70px;
+	background-color: #CCC;
+	border: thin solid #000;
+}
+#botLine {
+	width: 790px;
+	left: 5px;
+	bottom: 5px;
+	position: absolute;
+}
+
+
+#left {
+	position: absolute;
+	width: 362px;
+	left: 25px;
+	top: 275px;
+	background-color: #999;
+}
+#right {
+	width: 362px;
+	top: 275px;
+	right: 25px;
+	position: absolute;
+	background-color: #999;
+}
+
+
+
+
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+#imgNolde {
+	position: absolute;
+	left: 106px;
+	top: 360px;
+}
+#imgHave {
+	position: absolute;
+	right: 46px;
+	top: 360px;
+}
+
+h2 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+}
+h1 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 40px;
+}
+
+
+
+body {
+	background-color: #333;
+}
+#imageBox {
+	position: absolute;
+	top: 95px;
+	width: 750px;
+	left: 25px;
+	height: 300px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-left-style: solid;
+}
+#blomstTekst {
+	position: absolute;
+	width: 750px;
+	left: 25px;
+	top: 405px;
+}
+
+#topLine {
+	position: absolute;
+	height: 15px;
+	width: 750px;
+	left: 25px;
+	top: 70px;
+}
+#haveImgTekst {
+	position: absolute;
+	left: 5px;
+	width: 290px;
+}
+
+
+#imghave1 {
+	position: absolute;
+	top: 10px;
+	width: 172px;
+	margin-right: auto;
+	margin-left: auto;
+	left: 13px;
+}
+
+
+
+
+#imghave2 {
+	position: absolute;
+	left: 199px;
+	top: 10px;
+	width: 172px;
+}
+#imghave3 {
+	position: absolute;
+	width: 172px;
+	left: 384px;
+	top: 10px;
+}
+#imghave4 {
+	position: absolute;
+	left: 570px;
+	top: 10px;
+	width: 172px;
+}
+#imghave5 {
+	position: absolute;
+	width: 172px;
+	left: 10px;
+	top: 159px;
+}
+#imghave6 {
+	position: absolute;
+	width: 172px;
+	left: 199px;
+	top: 159px;
+}
+#emilTekst {
+	position: absolute;
+	width: 530px;
+	left: 25px;
+	top: 95px;
+}
+#emilBillede {
+	position: absolute;
+	width: 200px;
+	top: 95px;
+	left: 575px;
+}
